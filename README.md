@@ -1,7 +1,8 @@
 #**Animated Zig-Zag Progress Bar for Flutter**
-This Flutter widget allows you to create a custom, animated zig-zag progress bar. The progress bar is highly customizable, allowing you to adjust its height, width, color, and animation speed. The widget is easy to integrate into your Flutter app and can be used to display progress in a visually appealing way.
 
-How to Use
+##This Flutter widget allows you to create a custom, animated zig-zag progress bar. The progress bar is highly customizable, allowing you to adjust its height, width, color, and animation speed. The widget is easy to integrate into your Flutter app and can be used to display progress in a visually appealing way.
+
+#How to Use
 To use the animated zig-zag progress bar in your Flutter app, follow these steps:
 
 Add the package to your pubspec.yaml file:
