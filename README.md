@@ -25,4 +25,50 @@ Then, import the package in your Dart code:
 ```
 import 'package:animated_zigzag_progress_bar/animated_zigzag_progress_bar.dart';
 ```
+To create a progress bar, simply call the AnimatedZigZagProgressBar widget:
+
+```
+AnimatedZigZagProgressBar(
+  percentage: 0.5,
+  height: 20.0,
+  width: 300.0,
+  color: Colors.blue,
+  duration: Duration(milliseconds: 500),
+)
+```
+Example
+```
+import 'package:flutter/material.dart';
+import 'package:animated_zigzag_progress_bar/animated_zigzag_progress_bar.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Zig-Zag Progress Bar Demo',
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Zig-Zag Progress Bar Demo'),
+        ),
+        body: Center(
+          child: AnimatedZigZagProgressBar(
+            percentage: 0.75,
+            height: 20.0,
+            width: 300.0,
+            color: Colors.blue,
+            duration: Duration(milliseconds: 500),
+          ),
+        ),
+      ),
+    );
+  }
+}
+```
+License
+This project is licensed under the terms of the MIT license.
+
 
