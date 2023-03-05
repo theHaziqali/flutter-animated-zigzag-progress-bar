@@ -36,7 +36,7 @@ AnimatedZigZagProgressBar(
   duration: Duration(milliseconds: 500),
 )
 ```
-Example
+#Example
 ```
 import 'package:flutter/material.dart';
 import 'package:animated_zigzag_progress_bar/animated_zigzag_progress_bar.dart';
@@ -68,7 +68,7 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
-License
+#License
 This project is licensed under the terms of the MIT license.
 
 
